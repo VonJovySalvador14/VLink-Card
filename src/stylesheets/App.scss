@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.vlink-card-container {
+  position: relative;
+
+  .background-container {
+    position: fixed;
+  }
+
+  .vlink-card-wrapper {
+    padding: 30px;
+
+    .vlink-card-details-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      z-index: 100;
+      margin: auto;
+      position: relative;
+      width: 100%;
+      max-width: 700px;
+    }
+
+    @media (max-width: 830px) {
+      .vlink-card-details-container {
+        width: 90%;
+      }
+    }
+  }
+}

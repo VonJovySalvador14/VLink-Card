@@ -1,0 +1,65 @@
+.social-container {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+
+  .social-button-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+
+    .social-button {
+      border-radius: 10px;
+      position: relative;
+      width: 70px;
+      height: 70px;
+      cursor: pointer;
+      color: white;
+
+      .social-button-icon,
+      .social-button-svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .social-button-svg {
+        height: 50%;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.color-generic {
+  background-color: #868686;
+}
+
+.color-facebook,
+.color-messenger {
+  background-color: #1877f2;
+}
+
+.color-viber {
+  background-color: #7360f2;
+}
+
+.color-whatsapp {
+  background-color: #25d366;
+}
+
+.color-telegram {
+  background-color: #0088cc;
+}
+
+.color-linkedin {
+  background-color: #0762c8;
+}
